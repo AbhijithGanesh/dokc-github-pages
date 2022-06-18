@@ -8,6 +8,7 @@ const Socials = () => {
   const IconStyle = {
     marginTop: "10px",
     marginLeft: "5px",
+    color: "white",
   };
   return (
     <>
