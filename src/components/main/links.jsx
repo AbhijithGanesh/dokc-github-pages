@@ -15,7 +15,7 @@ const LinkHolder = ({ text, link }) => {
 const Links = () => {
   return (
     <>
-      <section className="py-4 grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 sm:mx-4 gap-6">
+      <section className="py-4 px-3 grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 sm:mx-4 gap-6">
         <section class="sm:col-start-1 lg:col-start-3 col-span-2">
           <section className="mx-2 text-white lg:text-3xl md:text-xl sm:text-lg font-bold hover:underline">
             Important Links

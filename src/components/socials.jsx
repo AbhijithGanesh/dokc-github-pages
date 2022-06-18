@@ -18,27 +18,42 @@ const Socials = () => {
           </section>
         </section>
       </section>
-      <section className=" flex flex-auto text-gray-400 justify-center lg:text-3xl md:text-2xl sm:text-xl gap-8 ">
+      <section className=" flex flex-auto  justify-center lg:text-3xl md:text-2xl sm:text-xl gap-8 ">
         <a href="https://github.com/dokc/" target="__blank">
-          <VscGithubAlt style={IconStyle} className="hover:text-white" />
+          <VscGithubAlt
+            style={IconStyle}
+            className="md:text-gray-400 lg:text-gray-400 hover:text-white sm:text-white"
+          />
         </a>
         <a href="https://twitter.com/dokcommunity/" target="__blank">
-          <FiTwitter style={IconStyle} className="hover:text-white" />
+          <FiTwitter
+            style={IconStyle}
+            className="md:text-gray-400 lg:text-gray-400 hover:text-white sm:text-white"
+          />
         </a>
         <a
           href="https://www.linkedin.com/company/data-on-kubernetes-community/"
           target="__blank"
         >
-          <BsLinkedin style={IconStyle} className="hover:text-white" />
+          <BsLinkedin
+            style={IconStyle}
+            className="md:text-gray-400 lg:text-gray-400 hover:text-white sm:text-white"
+          />
         </a>
         <a href="https://go.dok.community/slack" target="__blank">
-          <BsSlack style={IconStyle} className="hover:text-white" />
+          <BsSlack
+            style={IconStyle}
+            className="md:text-gray-400 lg:text-gray-400 hover:text-white sm:text-white"
+          />
         </a>
         <a
           href="https://www.youtube.com/channel/UCUnXJbHQ89R2uSfKsqQwGvQ"
           target="__blank"
         >
-          <RiYoutubeFill style={IconStyle} className="hover:text-white" />
+          <RiYoutubeFill
+            style={IconStyle}
+            className="md:text-gray-400 lg:text-gray-400 hover:text-white sm:text-white"
+          />
         </a>
       </section>
     </>

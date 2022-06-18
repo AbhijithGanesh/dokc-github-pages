@@ -15,7 +15,7 @@ let LandingPage = () => {
           </section>
         </section>
         <section className="sm:col-start-1 lg:text-right lg:col-start-5 lg:col-span-4">
-          <section className="text-white lg:text-4xl md:text-2xl sm:text-lg font-bold capitalize hover:text-white">
+          <section className="px-3 text-white lg:text-4xl md:text-2xl sm:text-lg font-bold capitalize hover:text-white">
             Welcome to the Data on Kubernetes Community!
             <section className="md:h-[0.5px] lg:h-[2px] w-auto bg-white  my-2" />
             <section className="text-white font-light normal-case lg:text-2xl md:text-xl sm:text-md hover:text-white">
