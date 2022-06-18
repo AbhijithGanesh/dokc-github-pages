@@ -35,6 +35,10 @@ const Links = () => {
               text={"Rap God API documentation"}
               link="https://dokc.github.io/docs-rap-god-api"
             />
+            <LinkHolder
+              text={"Challenges Repository"}
+              link="https://dokc.github.io/dokc/learning-and-challenges"
+            />
           </section>
         </section>
       </section>
