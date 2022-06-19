@@ -8,28 +8,27 @@ const Socials = () => {
   const IconStyle = {
     marginTop: "10px",
     marginLeft: "5px",
-    color: "white",
   };
   return (
     <>
       <section className="flex flex-auto justify-center">
-        <section className="text-white">
+        <section className="">
           <section className="lg:text-3xl md:text-2xl sm:text-xl text-white hover:underline font-bold">
             Check out our Socials!
           </section>
         </section>
       </section>
-      <section className=" flex flex-auto  justify-center lg:text-3xl md:text-2xl sm:text-xl gap-8 ">
+      <section className="py-2 flex flex-auto justify-center lg:text-3xl md:text-2xl sm:text-xl gap-8 ">
         <a href="https://github.com/dokc/" target="__blank">
           <VscGithubAlt
             style={IconStyle}
-            className="md:text-gray-400 lg:text-gray-400 hover:text-white sm:text-white"
+            className="md:text-gray-400 lg:text-gray-400 sm: text-white hover:text-white "
           />
         </a>
         <a href="https://twitter.com/dokcommunity/" target="__blank">
           <FiTwitter
             style={IconStyle}
-            className="md:text-gray-400 lg:text-gray-400 hover:text-white sm:text-white"
+            className="md:text-gray-400 lg:text-gray-400 sm: text-white hover:text-white"
           />
         </a>
         <a
@@ -38,13 +37,13 @@ const Socials = () => {
         >
           <BsLinkedin
             style={IconStyle}
-            className="md:text-gray-400 lg:text-gray-400 hover:text-white sm:text-white"
+            className="md:text-gray-400 lg:text-gray-400 sm: text-white hover:text-white"
           />
         </a>
         <a href="https://go.dok.community/slack" target="__blank">
           <BsSlack
             style={IconStyle}
-            className="md:text-gray-400 lg:text-gray-400 hover:text-white sm:text-white"
+            className="md:text-gray-400 lg:text-gray-400  sm: text-white hover:text-white"
           />
         </a>
         <a
@@ -53,7 +52,7 @@ const Socials = () => {
         >
           <RiYoutubeFill
             style={IconStyle}
-            className="md:text-gray-400 lg:text-gray-400 hover:text-white sm:text-white"
+            className="md:text-gray-400 lg:text-gray-400 sm: text-white hover:text-white"
           />
         </a>
       </section>

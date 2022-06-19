@@ -2,6 +2,7 @@ import * as React from "react";
 import LandingPage from "../components/main/main";
 import Links from "../components/main/links";
 import Socials from "../components/socials";
+import Footer from "../components/footer";
 
 // styles
 
@@ -12,6 +13,7 @@ const IndexPage = () => {
       <LandingPage />
       <Links />
       <Socials />
+      <Footer />
     </section>
   );
 };

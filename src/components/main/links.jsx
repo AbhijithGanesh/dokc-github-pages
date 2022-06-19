@@ -1,12 +1,18 @@
 import * as React from "react";
+import { FiExternalLink } from "react-icons/fi";
 
-const LinkHolder = ({ text, link }) => {
+const LinkHolder = ({ text, link, icon }) => {
   return (
     <>
-      <section className="my-2 p-2 lg:text-xl md:text-lg sm:text-sm font-regular border-2 rounded-lg border-white hover:text-black hover:text-2xl hover:bg-white hover:font-light">
-        <a href={link} target="__blank">
-          {text}
-        </a>
+      <section className="grid grid-cols-4 my-2 p-2 lg:text-xl md:text-lg sm:text-sm font-regular border-2 rounded-lg border-white hover:text-black hover:text-2xl hover:bg-white hover:font-light hover:transform-gpu translate-y-2">
+        <section className="cols-start-1 col-span-3 gap-2">
+          <a href={link} target="__blank">
+            {text}
+          </a>
+        </section>
+        <section className="col-start-4 flex justify-end text-3xl hover:text-2xl">
+          {icon}
+        </section>
       </section>
     </>
   );
@@ -26,18 +32,22 @@ const Links = () => {
             <LinkHolder
               text={"Community Website"}
               link="https://dok.community"
+              icon={<FiExternalLink />}
             />
             <LinkHolder
               text={"Community Landscape"}
               link="https://dok.community/landscape"
+              icon={<FiExternalLink />}
             />
             <LinkHolder
               text={"Rap God API documentation"}
               link="https://dokc.github.io/docs-rap-god-api"
+              icon={<FiExternalLink />}
             />
             <LinkHolder
               text={"Learning and Challenges Repository"}
               link="https://github.com/dokc/learning-and-challenges"
+              icon={<FiExternalLink />}
             />
           </section>
         </section>
