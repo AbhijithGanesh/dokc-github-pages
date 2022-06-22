@@ -30,6 +30,11 @@ const Links = () => {
         <section class="sm:col-start-1 lg:col-start-3 col-span-6 md:px-6 lg:px-2">
           <section className="text-white">
             <LinkHolder
+              text={"Learning and Challenges Repository"}
+              link="https://github.com/dokc/learning-and-challenges"
+              icon={<FiExternalLink />}
+            />
+            <LinkHolder
               text={"Community Website"}
               link="https://dok.community"
               icon={<FiExternalLink />}
@@ -42,11 +47,6 @@ const Links = () => {
             <LinkHolder
               text={"Rap God API documentation"}
               link="https://dokc.github.io/docs-rap-god-api"
-              icon={<FiExternalLink />}
-            />
-            <LinkHolder
-              text={"Learning and Challenges Repository"}
-              link="https://github.com/dokc/learning-and-challenges"
               icon={<FiExternalLink />}
             />
           </section>
