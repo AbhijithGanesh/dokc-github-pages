@@ -30,6 +30,17 @@ const Links = () => {
         <section class="sm:col-start-1 lg:col-start-3 col-span-6 md:px-6 lg:px-2">
           <section className="text-white">
             <LinkHolder
+              text={"Explorer's world website"}
+              link="https://explorersworlddok.gtsb.io/"
+              icon={<FiExternalLink />}
+            />
+            <LinkHolder
+              text={"Killercoda scenario"}
+              link="https://killercoda.com/abhijith-ganesh/scenario/helm-kubernetes"
+              icon={<FiExternalLink />}
+            />
+
+            <LinkHolder
               text={"Learning and Challenges Repository"}
               link="https://github.com/dokc/learning-and-challenges"
               icon={<FiExternalLink />}
