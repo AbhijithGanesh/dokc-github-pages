@@ -1,19 +1,19 @@
 import * as React from "react";
 import { FiExternalLink } from "react-icons/fi";
+import { RiOpenSourceLine } from "react-icons/ri";
+import { BiGitRepoForked } from "react-icons/bi";
 
 const LinkHolder = ({ text, link, icon }) => {
   return (
     <>
-      <section className="grid grid-cols-4 my-2 p-2 lg:text-xl md:text-lg sm:text-sm font-regular border-2 rounded-lg border-white hover:text-black hover:text-2xl hover:bg-white hover:font-light hover:transform-gpu translate-y-2">
-        <section className="cols-start-1 col-span-3 gap-2">
-          <a href={link} target="__blank">
-            {text}
-          </a>
+      <a href={link} target="__blank">
+        <section className="grid grid-cols-4 my-2 p-2 lg:text-xl md:text-lg sm:text-sm font-regular border-2 rounded-lg border-white hover:text-black hover:text-2xl hover:bg-white hover:font-light hover:transform-gpu translate-y-2">
+          <section className="cols-start-1 col-span-3 gap-2">{text}</section>
+          <section className="col-start-4 flex justify-end text-3xl hover:text-2xl">
+            {icon}
+          </section>
         </section>
-        <section className="col-start-4 flex justify-end text-3xl hover:text-2xl">
-          {icon}
-        </section>
-      </section>
+      </a>
     </>
   );
 };
@@ -30,6 +30,11 @@ const Links = () => {
         <section class="sm:col-start-1 lg:col-start-3 col-span-6 md:px-6 lg:px-2">
           <section className="text-white">
             <LinkHolder
+              text="Guide to Open Source"
+              link="/guide-to-opensource"
+              icon={<RiOpenSourceLine />}
+            />
+            <LinkHolder
               text={"Explorer's world website"}
               link="https://explorersworlddok.gtsb.io/"
               icon={<FiExternalLink />}
@@ -43,7 +48,7 @@ const Links = () => {
             <LinkHolder
               text={"Learning and Challenges Repository"}
               link="https://github.com/dokc/learning-and-challenges"
-              icon={<FiExternalLink />}
+              icon={<BiGitRepoForked />}
             />
             <LinkHolder
               text={"Community Website"}
